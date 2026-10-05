@@ -7,7 +7,7 @@ Use these after GitHub Pages has successfully deployed:
 - Official website / homepage: `https://hamzarehan.github.io/visual-shield/`
 - Support URL: `https://hamzarehan.github.io/visual-shield/support.html`
 - Privacy policy URL: `https://hamzarehan.github.io/visual-shield/privacy.html`
-- Source/support repository: `https://github.com/hamzarehan/VisualShield`
+- Support email: `hamzarehan83@gmail.com`
 
 The existing `https://hamzarehan.github.io/` account site remains unchanged. Visual Shield is published from its `/visual-shield/` subfolder.
 
@@ -15,9 +15,7 @@ The existing `https://hamzarehan.github.io/` account site remains unchanged. Vis
 
 1. Confirm the GitHub repository is public, or that your GitHub plan supports Pages for this repository.
 2. Commit and push the `docs/` directory to the `main` branch.
-3. Ensure GitHub Issues are enabled if they will be used as the public support channel:
-   - Repository **Settings** → **General** → **Features** → enable **Issues**.
-4. Optionally replace the GitHub Issues contact text with a dedicated support email.
+3. Confirm that `hamzarehan83@gmail.com` is the support email you want to publish publicly.
 
 ## Enable GitHub Pages
 
