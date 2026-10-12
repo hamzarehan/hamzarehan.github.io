@@ -329,3 +329,6 @@ a.app-card:hover { transform: translateY(-3px); border-color: var(--accent); }
 
 /* 3D device render (transparent PNG) */
 .hero-3d { width: 100%; max-width: 460px; justify-self: center; margin-inline: auto; }
+/* Safari stretches replaced elements inside grid/flex unless they opt out of stretch */
+.hero-3d, .hero-shot img, .gallery img, .app-icon-lg { align-self: center; height: auto; object-fit: contain; }
+.gallery img { align-self: flex-start; width: min(300px, 72vw); }
