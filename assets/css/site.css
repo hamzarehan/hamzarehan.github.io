@@ -222,9 +222,6 @@ a.app-card:hover { transform: translateY(-3px); border-color: var(--accent); }
 .feature ul { padding-left: 20px; color: #dfe8e3; margin: 18px 0 0; }
 .feature li { margin: 6px 0; }
 .feature .button.secondary { background: transparent; color: #fffaf0; border-color: rgba(255,255,255,.3); }
-.shots { display: flex; gap: 14px; justify-content: center; }
-.shots img { width: 46%; max-width: 220px; border-radius: 18px; box-shadow: 0 20px 40px -12px rgba(0,0,0,.5); }
-.shots img:nth-child(2) { transform: translateY(28px); }
 
 .gallery { display: flex; align-items: flex-start; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 6px 2px 18px; }
 .gallery img { width: min(240px, 62vw); flex: none; border-radius: 18px; scroll-snap-align: start; border: 1px solid var(--line); box-shadow: var(--shadow); }
@@ -300,7 +297,6 @@ a.app-card:hover { transform: translateY(-3px); border-color: var(--accent); }
   .nav-links a { padding: 8px 9px; }
   .brand small { display: none; }
   .pattern { display: none; }
-  .shots img:nth-child(2) { transform: translateY(16px); }
 }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
@@ -330,3 +326,6 @@ a.app-card:hover { transform: translateY(-3px); border-color: var(--accent); }
   .bank-row { grid-template-columns: 1fr; gap: 4px; }
 }
 .section .narrow > h2 { margin-top: 48px; }
+
+/* 3D device render (transparent PNG) */
+.hero-3d { width: 100%; max-width: 460px; justify-self: center; margin-inline: auto; }
