@@ -302,7 +302,7 @@ a.app-card:hover { transform: translateY(-3px); border-color: var(--accent); }
   * { transition: none !important; scroll-behavior: auto !important; }
 }
 
-/* Tip the developer */
+/* Send a gift */
 .gift-note { border-color: var(--gold); background: linear-gradient(180deg, var(--gold-soft), var(--surface) 70%); }
 .gift-note p + p { margin-top: 12px; }
 .hadith { margin: 22px 0 0; padding: 16px 20px; border-left: 3px solid var(--gold); background: var(--surface); border-radius: 10px; }
